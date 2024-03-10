@@ -12,6 +12,13 @@ php artisan migrate
 ## Step 5: Seeding database
 php artisan db:seed
 
+## Step 6: run localhost and enjoin
+php artisan serve
+
+## Account test
+email: client_1@gmail.com
+password: 123456
+
 ## Project still building, not finish yet, follow the check list below
 
 1. Product list Page => done

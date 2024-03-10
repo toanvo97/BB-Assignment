@@ -13,7 +13,7 @@
             <div class="product__item__text"
             >
                 <span>{{ $product->categories()->first()->name }} - Brand: {{$product->brand->name}}</span>
-                <h6 style="font-weight: 600;"><a href="#">{{ $product->name }}</a></h6>
+                <h6 style="font-weight: 600;"><a href="{{route('product.detail', ['id' => $product->id])}}">{{ $product->name }}</a></h6>
                 <p>Left: {{$product->quantity}}</p>
                 <h5>${{$product->price}}</h5>
             </div>
